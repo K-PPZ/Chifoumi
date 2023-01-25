@@ -35,8 +35,40 @@ div img:hover {
     width: 45%;
 }
 
+#imgs_left img:hover {
+    transform: rotate(15deg);
+}
+
+#imgs_right img:hover {
+    transform: rotate(-15deg);
+}
+
 img {
     width: 40%;
+}
+
+#player_select {
+    height: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#player_select img{
+    width: 50%;
+    display: none;
+}
+
+#ia_select {
+    height: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ia_select img{
+    width: 50%;
+    display: none;
 }
 
 #vs {
