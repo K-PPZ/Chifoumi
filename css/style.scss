@@ -93,3 +93,12 @@ img {
     align-items: flex-end;
     padding: 0 1%;
 }
+
+#pop_up {
+    position: fixed;
+    background-color: white;
+    border: solid 10px rgb(230, 230, 230);
+    height: 50%;
+    width: 60%;
+    border-radius: 20px;
+}
