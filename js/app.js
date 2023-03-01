@@ -8,6 +8,14 @@ let imgs_right = document.getElementById("imgs_right");
 let player_picture = document.getElementById("player_picture");
 let ia_picture = document.getElementById("ia_picture");
 
+let pop_up = document.getElementById("pop_up");
+let new_partie = document.getElementById("new_partie");
+let next_partie = document.getElementById("next_partie");
+
+new_partie.addEventListener("click", () => {
+    pop_up.style.visibility = "hidden";
+});
+
 let pfc = ["../img/pierre.png", "../img/feuille.png", "../img/ciseaux.png"];
 let ia = Math.floor(Math.random() * (pfc.length - 0)) + 0;
 
